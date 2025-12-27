@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="blueprint-bg"></div>
+
+<div class="profile-panel">
+    <div class="panel-header">
+        <div class="profile-image">
+            <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Profile Photo">
+        </div>
+        <div class="header-text">
+            <h3>Bipin Vanjara</h3>
+            <span>Structural & Civil Engineering Consultant</span>
+        </div>
+    </div>
+
+    <div class="panel-body">
+        <div class="info-row">
+            <span class="info-label">Experience</span>
+            <span class="info-value">36+ Years</span>
+        </div>
+
+        <div class="info-row">
+            <span class="info-label">Projects Completed</span>
+            <span class="info-value">100+ Projects</span>
+        </div>
+
+        <div class="info-row">
+            <span class="info-label">Tools Used</span>
+            <span class="info-value">10+ Tools</span>
+        </div>
+
+        <div class="info-row">
+            <span class="info-label">Education</span>
+            <span class="info-value">
+                Diploma in Civil Engineering<br>
+                Sir Bhavsinhji Polytechnic Institute
+            </span>
+        </div>
+
+        <div class="focus-area">
+            <h4>Core Expertise</h4>
+            <div class="pill">Structural Design</div>
+            <div class="pill">Project Management</div>
+            <div class="pill">Site Supervision</div>
+            <div class="pill">Consultancy</div>
+        </div>
+    </div>
+
+    <div class="panel-footer">
+        <span>Engineering structures that endure time and purpose</span>
+    </div>
+
+    <div class="scan-line"></div>
+</div>
+
+<section class="about-hero">
+    <div class="container">
+        <span class="tag-line">INTELLIGENT DESIGN</span>
+        <h5 class="main-title">THE <span class="accent">FOUNDATION</span></h5>
+        
+        <div class="about-grid">
+            <div class="identity-stack">
+                <div class="id-card">
+                    <span class="num">01</span>
+                    <h3>Structural Engineering</h3>
+                    <p>Calculated precision for safety and longevity.</p>
+                </div>
+                <div class="id-card">
+                    <span class="num">02</span>
+                    <h3>Architectural Design</h3>
+                    <p>Spatial logic and aesthetic harmony.</p>
+                </div>
+                <div class="id-card">
+                    <span class="num">03</span>
+                    <h3>Interior Curating</h3>
+                    <p>Human-centric finishes and lighting.</p>
+                </div>
+            </div>
+
+            <div class="skills-stack">
+                <div class="skill-item">
+                    <div class="skill-labels"><span>Project Management</span><span> 95%</span></div>
+                    <div class="bar-container"><div class="bar-progress" style="--w: 95%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-labels"><span>Structural BIM</span><span> 90%</span></div>
+                    <div class="bar-container"><div class="bar-progress" style="--w: 90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-labels"><span>Spatial Planning</span><span> 98%</span></div>
+                    <div class="bar-container"><div class="bar-progress" style="--w: 98%"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
